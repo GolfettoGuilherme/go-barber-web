@@ -1,13 +1,8 @@
 <div align="center" style="margin-bottom: 20px;">
-<img alt="gobarber" src="./img/logo.png" width="auto" heigth="auto"/>
+
 </div>
 
 <div align="center" style="margin: 20px;">
-
-[![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/gobarber/LICENSE.md)
-![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/gobarber?color=green&style=flat-square)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/30e0ef7a3c2146498723e53c9fcaeda7)](https://www.codacy.com/manual/jvictorfarias/GoBarber_2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jvictorfarias/GoBarber&amp;utm_campaign=Badge_Grade)
-![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/gobarber?style=flat-square)
 
 
 <p align="center" >
@@ -41,38 +36,18 @@ O projeto foi feito com as seguintes tecnologias:
 - [JWT](https://jwt.io/)
 - [Yup](https://github.com/jquense/yup)
 - [Styled-Components](https://styled-components.com/)
-{...}
-
 
 ## :zap: Executando o Projeto
 #### Clonando o projeto
 ```sh
-$ git clone https://github.com/jvictorfarias/gobarber.git
-$ cd gobarber
+$ git clone https://github.com/GolfettoGuilherme/go-barber-web
+$ cd go-barber-web
 ```
-#### Iniciando a API
-```sh
-$ cd api
-
-# Criando a imagem Docker do banco de dados:
-# Dentro do projeto, já existe uma arquivo docker-compose.yml que possui o
-# PostgreSQL como banco de dados, basta ter o Docker instalado em sua máquina.
-$ docker-compose up -d # Iniciará em background e não irá bloquear o shell
-
-# Rodando as migrations para o banco de dados e iniciando o projeto
-$ yarn && yarn typeorm migration:run && yarn dev:server
-```
-
 
 #### Iniciando o Frontend
 ```sh
 $ cd web
 $ yarn && yarn start
-```
-#### Iniciando o Mobile(Android)
-```sh
-$ cd mobile
-$ yarn && yarn android && yarn start
 ```
 
 ### :memo: Licença
