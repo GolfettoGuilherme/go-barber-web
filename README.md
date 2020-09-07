@@ -25,7 +25,7 @@
 Aplicação para agendar e gerenciar serviços de beleza, onde prestadores de serviços podem se cadastrar,
 e usuários poderão marcar agendamentos com estes provedores.
 
-## :fire: Prévia da Aplicação
+## :fire: Aplicação
 
 <div align="center">
 <img src="https://media.giphy.com/media/Lm6bmg75wR7Llcf9JG/giphy.gif" alt="preview"/>
@@ -43,28 +43,6 @@ O projeto foi feito com as seguintes tecnologias:
 - [Styled-Components](https://styled-components.com/)
 {...}
 
-## :hammer: Deploy da Aplicação
-{...}
-
-
-## :thinking: Como Contribuir?
-**Faça um fork deste repositório**
-
-```bash
-# Clone o seu fork
-$ git clone url-do-seu-fork && cd gobarber
-
-# Crie uma branch com sua feature ou correção de bugs
-$ git checkout -b minha-branch
-
-# Faça o commit das suas alterações
-$ git commit -m 'feature/bugfix: minhas alterações'
-
-# Faça o push para a sua branch
-$ git push origin minha-branch
-```
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ## :zap: Executando o Projeto
 #### Clonando o projeto
