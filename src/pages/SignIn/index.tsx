@@ -3,6 +3,7 @@ import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
+import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/logo.svg';
 
@@ -22,10 +23,9 @@ interface SingInFormData {
 }
 
 const SignIn: React.FC = () => {
-
   const formRef = useRef<FormHandles>(null);
 
-  const {signIn, user} = useAuth();
+  const {signIn} = useAuth();
   const {addToast } = useToast();
 
 
@@ -78,10 +78,10 @@ const SignIn: React.FC = () => {
 
           <a href="forgot">Esqueci minha senha</a>
         </Form>
-        <a href="a">
+        <Link to="/signup">
           <FiLogIn />
           Criar Conta
-        </a>
+        </Link>
       </Content>
 
       <Background />
